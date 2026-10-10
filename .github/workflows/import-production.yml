@@ -39,7 +39,7 @@ jobs:
                   if stat.S_ISLNK(item.external_attr >> 16):
                       raise ValueError('Symlink not allowed')
                   relative = Path(*parts[1:])
-                  if relative.as_posix() == '.github/workflows/collect.yml':
+                  if relative.parts[:2] == ('.github', 'workflows'):
                       continue
                   if relative.name == '.env':
                       raise ValueError('Private environment file')
