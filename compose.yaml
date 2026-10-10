@@ -1,0 +1,14 @@
+services:
+  bidpilot:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      ZERO_COST_ONLY: "true"
+      BIDPILOT_ALLOWED_HOSTS: "localhost,127.0.0.1"
+      BIDPILOT_SCHEDULER: "true"
+    volumes:
+      - bidpilot-data:/var/lib/bidpilot
+    restart: unless-stopped
+volumes:
+  bidpilot-data:

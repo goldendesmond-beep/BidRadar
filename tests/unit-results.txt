@@ -1,0 +1,40 @@
+test_admin_disabled_and_missing_credentials (test_app.ApiRegression.test_admin_disabled_and_missing_credentials) ... ok
+test_application_actions_require_verification (test_app.ApiRegression.test_application_actions_require_verification) ... ok
+test_arabic_and_english_search_and_filters (test_app.ApiRegression.test_arabic_and_english_search_and_filters) ... ok
+test_company_saved_private_isolation_and_persistence (test_app.ApiRegression.test_company_saved_private_isolation_and_persistence) ... ok
+test_company_workers_bounded_and_sectors_validated (test_app.ApiRegression.test_company_workers_bounded_and_sectors_validated) ... ok
+test_csrf_and_origin_reject_unauthorized_writes (test_app.ApiRegression.test_csrf_and_origin_reject_unauthorized_writes) ... ok
+test_csv_formula_injection_protection (test_app.ApiRegression.test_csv_formula_injection_protection) ... ok
+test_database_persists_and_integrity (test_app.ApiRegression.test_database_persists_and_integrity) ... ok
+test_deduplication_and_history (test_app.ApiRegression.test_deduplication_and_history) ... ok
+test_details_404_and_invalid_parameters (test_app.ApiRegression.test_details_404_and_invalid_parameters) ... ok
+test_expiry_normalization_and_daily_close (test_app.ApiRegression.test_expiry_normalization_and_daily_close) ... ok
+test_fit_score_does_not_claim_eligibility (test_app.ApiRegression.test_fit_score_does_not_claim_eligibility) ... ok
+test_home_and_assets_security_headers (test_app.ApiRegression.test_home_and_assets_security_headers) ... ok
+test_host_allowlist (test_app.ApiRegression.test_host_allowlist) ... ok
+test_json_validation_and_body_limit (test_app.ApiRegression.test_json_validation_and_body_limit) ... ok
+test_rate_limit_and_retry_after (test_app.ApiRegression.test_rate_limit_and_retry_after) ... ok
+test_search_uses_published_english_fields (test_app.ApiRegression.test_search_uses_published_english_fields) ... ok
+test_session_cookie_private_flags (test_app.ApiRegression.test_session_cookie_private_flags) ... ok
+test_sources_status_and_summary (test_app.ApiRegression.test_sources_status_and_summary) ... ok
+test_sql_injection_does_not_expand_results (test_app.ApiRegression.test_sql_injection_does_not_expand_results) ... ok
+test_urls_reject_local_and_unsafe_schemes (test_app.ApiRegression.test_urls_reject_local_and_unsafe_schemes) ... ok
+test_xlsx_valid_zip_schema_and_strings (test_app.ApiRegression.test_xlsx_valid_zip_schema_and_strings) ... ok
+test_xss_is_data_and_frontend_escapes (test_app.ApiRegression.test_xss_is_data_and_frontend_escapes) ... ok
+test_auth_challenge_rate_limit_states (test_sources.ConnectorSecurity.test_auth_challenge_rate_limit_states) ... ok
+test_fetch_allowlist_rejects_ssrf_and_credentials (test_sources.ConnectorSecurity.test_fetch_allowlist_rejects_ssrf_and_credentials) ... ok
+test_fetch_dns_nonpublic_rejected_before_connection (test_sources.ConnectorSecurity.test_fetch_dns_nonpublic_rejected_before_connection) ... ok
+test_no_records_never_marked_live (test_sources.ConnectorSecurity.test_no_records_never_marked_live) ... ok
+test_recorded_official_etimad_and_ksau_extraction (test_sources.ConnectorSecurity.test_recorded_official_etimad_and_ksau_extraction) ... ok
+test_redirect_allowlist_checked (test_sources.ConnectorSecurity.test_redirect_allowlist_checked) ... ok
+test_robots_disallow_respected (test_sources.ConnectorSecurity.test_robots_disallow_respected) ... ok
+test_untrusted_scripts_ignored_and_no_date_inference (test_sources.ConnectorSecurity.test_untrusted_scripts_ignored_and_no_date_inference) ... ok
+test_concurrent_refresh_rejected (test_sources.RefreshRegression.test_concurrent_refresh_rejected) ... ok
+test_daily_scheduler_executes_due_job_and_skips_recent (test_sources.RefreshRegression.test_daily_scheduler_executes_due_job_and_skips_recent) ... ok
+test_independent_refresh_records_runs_errors_audit_dedup (test_sources.RefreshRegression.test_independent_refresh_records_runs_errors_audit_dedup) ... ok
+test_verified_seed_import_idempotent (test_sources.RefreshRegression.test_verified_seed_import_idempotent) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.492s
+
+OK
